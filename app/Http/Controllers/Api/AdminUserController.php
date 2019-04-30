@@ -1,7 +1,7 @@
 <?php
 namespace App\Http\Controller\Api;
 
-class User{
+class AdminUserController extends Controller{
      
      public function getUserInfo(){
      	
