@@ -26,3 +26,7 @@ Route::get('/error', function () {
     return view('error');
 });
 
+Route::get('/user', function () {
+    return view('user');
+});
+
