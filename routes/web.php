@@ -17,5 +17,12 @@ Route::get('/', function () {
 
 Route::get('/user', function () {
     return view('user');
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/error', function () {
+    return view('error');
 });
 
