@@ -2,7 +2,7 @@
 class home{
 	//index处理方式
 	public funtion index(){
-		return view("");
+		return view("123");
 	}
 
 	//index处理方式
